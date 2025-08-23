@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* 
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../imagens/metal.jpg);
+    display: block;
+}
+
+img {
+    width: 270px;
+    height: 230px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+body {
+    background-color: #5f2c82;
+}
+
+main {
+    padding: 10px;
+    width: 270px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 150px;
+    height: 520px;
+}
+
+main > form > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#login {
+    margin: 4px 0px;
+    background-color: #5f2c82;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+input {
+    width: 60%;
+    height: 80%;
+}
+
+#senha {
+    margin-bottom: 4px;
+    background-color: #5f2c82;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#ientrar {
+    margin: auto;
+    display: block;
+    width: 250px;
+    height: 30px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+a {
+    margin-top: 4px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #49a09d;
+    border-radius: 3px;
+    color: #49a09d;
+}
